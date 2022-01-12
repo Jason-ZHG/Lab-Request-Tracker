@@ -1,0 +1,21 @@
+Team 58 - Lab Task Management System
+Team members:
+- Hanguang (Jason) Zheng, hgzheng@seas.upenn.edu
+- Xiaozhong (Alex) Xia, alexxia@seas.upenn.edu
+
+Project Summary:
+The Lab Request Tracker is created to replace an Excel tracker that's being used in Jason's lab. With the Excel system, it was difficult to track priorities, control edits, manage user permissions, or maintain an approval process.
+We created a GUI system by using Java and MySQL database to help manage the lab request queue. Some of the main features include user authentication and permission management, request submission and edit, request approval, status update, logs tracking, turn around time tracking, different views, and sorting capability.
+
+Work Breakdown:
+- Draft a simple requirements doc that acts as our design guide - both Jason and Alex
+- Translate the requirements into workflows and Lucid charts - Alex
+- Design doc that explains how we would like to design our data structure, CRCs, and Javadoc - both Jason and Alex
+- Database design and implementation (related class: DatabaseDriver)- Alex
+- GUI design and implementation (related classes: GUI, LoginGUI, MainGUI, SubmitRequestGUI, EditRequestGUI)- Jason
+- Other classes were shared responsibilities, include Request, RequestBoard, RequestManager, User, UserManager
+- Tests were also shared responsibilities between the two of us. Alex was responsible for unit testing and Jason was responsible for integration testing.
+- Presentation deck - Alex
+- Demo/presentation - both Alex and Jason
+
+Link to Github repo: https://github.com/UPenn-CIT599/final-project-team-58-lab-request-tracker
